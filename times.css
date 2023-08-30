@@ -1,0 +1,215 @@
+header {
+    text-align: center;
+    font-style: italic;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, yellow, green);
+    background-size: 100% 100%; /* Ajusta o tamanho do gradiente */
+    background-repeat: no-repeat; /* Impede a repetição do gradiente */
+    text-align: center;
+    color: white;
+    height: auto;
+    overflow: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+    background: white;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    margin: auto; /* Centralizar verticalmente e horizontalmente */
+    margin-top: 40px; /* Espaço no topo */
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    /* ... outros estilos ... */
+}
+.select-h2 {
+    text-align: left;    
+    width: 500px;
+    padding: 3px;
+    margin-top: -20px;
+}
+h2 {
+    font-size: 36px; /* Tamanho da fonte */
+    color: black;    /* Cor do texto */
+}
+
+.select-rj {
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-weight: bold;
+    color:white;
+}
+.select-rj:hover{
+    color: aqua;
+    background-color: white;
+    transition: 1s all;
+}
+.select-rj {
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-weight: bold;
+    color:white;
+}
+.option{
+    font-weight: bold;
+}
+.div-select-sp {
+    display: flex;
+    justify-content: flex-end; /* Alinha as divs à direita do container */
+    margin-top: -25px;
+}
+.select-sp {
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    border: 1px solid red;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    font-weight: bold;
+    color:white;
+}
+.select-sp:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all;
+}
+.option-sp {
+    font-weight: bold;
+}
+.div-select-rs_mg{
+    margin-top: 120px;
+}
+.select-rs {
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    border: 1px solid red;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: bold;
+    color: yellow;
+}
+.select-rs:hover {
+    background-color: yellow;
+    color:green;
+    transition: 1s all;
+}
+.option-rs {
+    font-weight: bold;
+}
+.div-select-mg {
+    display: flex;
+    justify-content: flex-end; /* Alinha as divs à direita do container */
+    margin-top: -25px;
+}
+.select-mg {
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    border: 1px solid red;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+.select-mg:hover {
+    background-color: black;
+    color: white;
+    transition: 1s all;
+}
+.option-mg {
+    font-weight: bold;
+}
+.btn-rj_sp {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#btn-exibir-sp {
+    margin-left: 90px;
+}
+#btn-exibir-mg {
+    margin-left: 90px;
+}
+.btn-rj_sp,
+.btn-rs_mg {
+    display: flex;
+    flex-direction: row; /* Posiciona os botões lado a lado */
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.btn.btn-resp {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    font-style: italic;
+    padding: 5px;
+    cursor: pointer; /* Adiciona o cursor de mão */
+}
+.resp-btn {
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+.btn-resp{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    font-style: italic;
+    padding: 5px;
+}
+.btn:hover {
+    background-color: blue;
+    color: white;
+    border: black;
+    transition: 1.2s all;
+}
+#btn-exibir-sp {
+    border-color: red;
+}
+footer {
+    margin-top: 120px;
+    font-size: 20px;
+    font-style: italic;
+    font: bold;
+    color: blue;
+}
